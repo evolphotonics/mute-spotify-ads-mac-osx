@@ -1,4 +1,4 @@
-# Mute Spotify Ads On Mac (OSX)
+# Mute Spotify Ads On Mac
 I use Spotify on my computer from time to time but I hate when the Ads start playing.
 
 The first solution I was using was blocking Spotify Ads DNS's, but that stopped working after a while.
