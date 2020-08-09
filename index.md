@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Mute Spotify Ads On Mac (OSX)
+I use Spotify on my computer from time to time but I hate when the Ads start playing.
 
-You can use the [editor on GitHub](https://github.com/gdi3d/mute-spotify-ads-mac-osx/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The first solution I was using was blocking Spotify Ads DNS's, but that stopped working after a while.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I don't mind having a **break** between a few songs, but I don't wanna hear the Ads, so I decided to create a small script to hack it.
 
-### Markdown
+The script does the following:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Using OSX log system I can listen to Spotify events.
+2. Read the events and check if an Ad is about to be played.
+3. If the event is an Ad about to be played **automatically mute system audio**.
+4. If the next event is a song, **unmute system audio**.
 
-```markdown
-Syntax highlighted code block
+# How to install it
 
-# Header 1
-## Header 2
-### Header 3
+1. Open a new terminal (use Spotlight search and type **terminal.app**)
+2. Inside the new window paste this command and then hit enter 
+  
+    ```
+    mkdir -p ~/MuteSpotifyAds && curl https://raw.githubusercontent.com/gdi3d/mute-spotify-ads-mac-osx/master/NoAdsSpotify.sh > ~/MuteSpotifyAds/NoAdsSpotify.sh
+    ```
 
-- Bulleted
-- List
+3. This will create a new folder inside your Home folder called `MuteSpotifyAds` and will place a new file called `NoAdsSpotify.sh`
+4. To run the program just copy and paste the code below in the terminal and hit enter 
+    
+    ```
+    sh ~/MuteSpotifyAds/NoAdsSpotify.sh
+    ```
 
-1. Numbered
-2. List
+5. To exit the program just **close the terminal app or press Ctrl+c**
 
-**Bold** and _Italic_ and `Code` text
+# Repository
+Here's the repo if you want to know more:
+[https://github.com/gdi3d/mute-spotify-ads-mac-osx](https://github.com/gdi3d/mute-spotify-ads-mac-osx)
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gdi3d/mute-spotify-ads-mac-osx/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
