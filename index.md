@@ -28,7 +28,9 @@ The script does the following:
     sh ~/MuteSpotifyAds/NoAdsSpotify.sh
     ```
 
-5. To exit the program just **close the terminal app or press Ctrl+c**
+5. Open Spotify and enjoy!
+
+To close the program just **close the terminal app or press Ctrl+c**
 
 # Why not blocking Ads instead???
 
