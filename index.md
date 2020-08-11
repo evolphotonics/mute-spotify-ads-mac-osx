@@ -14,8 +14,8 @@ The script does the following:
 
 # How to install it
 
-1. Open a new terminal (use Spotlight search and type **terminal.app**)
-2. Inside the new window paste this command and then hit enter 
+1. Open a new terminal (inside your **Applications** folder or Spotlight search and type **terminal.app**)
+2. Inside that white window (that's the terminal app) paste this command and then hit enter 
   
     ```
     mkdir -p ~/MuteSpotifyAds && curl https://raw.githubusercontent.com/gdi3d/mute-spotify-ads-mac-osx/master/NoAdsSpotify.sh > ~/MuteSpotifyAds/NoAdsSpotify.sh
@@ -32,6 +32,8 @@ The script does the following:
 
 To close the program just **close the terminal app or press Ctrl+c**
 
+**Remember: You need to have this program running to mute Spotify Ads (steps 1 and 4)**
+
 # Why not blocking Ads instead???
 
 I used to have all the Spotify Ads DNS blocked but that stopped working.
@@ -42,3 +44,6 @@ Besides, I was bored that Saturday noon and I wanted to give it a try.
 Here's the repo if you want to know more:
 [https://github.com/gdi3d/mute-spotify-ads-mac-osx](https://github.com/gdi3d/mute-spotify-ads-mac-osx)
 
+# Need help?
+
+Contact me https://getadvice.github.io/adriano.galello.html
