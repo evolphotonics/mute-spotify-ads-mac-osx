@@ -18,14 +18,14 @@ The script does the following:
 2. Inside that white window (that's the terminal app) paste this command and then hit enter 
   
     ```
-    mkdir -p ~/MuteSpotifyAds && curl https://raw.githubusercontent.com/gdi3d/mute-spotify-ads-mac-osx/master/NoAdsSpotify.sh > ~/MuteSpotifyAds/NoAdsSpotify.sh
+mkdir -p ~/MuteSpotifyAds && curl https://raw.githubusercontent.com/gdi3d/mute-spotify-ads-mac-osx/master/NoAdsSpotify.sh > ~/MuteSpotifyAds/NoAdsSpotify.sh
     ```
 
 3. This will create a new folder inside your Home folder called `MuteSpotifyAds` and will place a new file called `NoAdsSpotify.sh`
 4. To run the program just copy and paste the code below in the terminal and hit enter 
     
     ```
-    sh ~/MuteSpotifyAds/NoAdsSpotify.sh
+sh ~/MuteSpotifyAds/NoAdsSpotify.sh
     ```
 
 5. Open Spotify and enjoy!
