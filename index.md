@@ -46,4 +46,4 @@ Here's the repo if you want to know more:
 
 # Need help?
 
-Contact me https://getadvice.github.io/adriano.galello.html
+Contact me [https://getadvice.github.io/adriano.galello.html](https://getadvice.github.io/adriano.galello.html)
