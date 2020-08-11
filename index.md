@@ -1,20 +1,11 @@
 # Mute Spotify Ads On Mac
 I use Spotify on my computer from time to time but I hate when the Ads start playing.
 
-The first solution I was using was blocking Spotify Ads DNS's, but that stopped working after a while.
-
 I don't mind having a **break** between a few songs, but I don't wanna hear the Ads, so I decided to create a small script to hack it.
-
-The script does the following:
-
-1. Using OSX log system I can listen to Spotify events.
-2. Read the events and check if an Ad is about to be played.
-3. If the event is an Ad about to be played **automatically mute system audio**.
-4. If the next event is a song, **unmute system audio**.
 
 # How to install it
 
-1. Open a new terminal (inside your **Applications** folder or Spotlight search and type **terminal.app**)
+1. Open the application **Terminal**. Search it inside your **Applications** folder or using **Spotlight search** (cmd+space bar) and type **terminal.app**
 2. Inside that white window (that's the terminal app) paste this command and then hit enter 
   
     ```
@@ -29,10 +20,12 @@ sh ~/MuteSpotifyAds/NoAdsSpotify.sh
     ```
 
 5. Open Spotify and enjoy!
+6. After you're done listening to your tracks you can close this application by **closing the terminal app**. **Remember: You need to run this program the next time you open Spotify if you want to mute the Ads (steps 1 and 4)**
 
-To close the program just **close the terminal app or press Ctrl+c**
-
-**Remember: You need to have this program running to mute Spotify Ads (steps 1 and 4)**
+# How to uninstall it?
+1. Go to your home folder (the one with the 🏠 icon) using the **Finder** 
+2. Make sure you're not running the program (step 6 in the list above)
+3. Find the folder called `MuteSpotifyAds` and delete it.
 
 # Why not blocking Ads instead???
 
@@ -40,10 +33,17 @@ I used to have all the Spotify Ads DNS blocked but that stopped working.
 
 Besides, I was bored that Saturday noon and I wanted to give it a try.
 
+# How does it work?
+
+1. Using OSX log system I can listen to Spotify events.
+2. Read the events and check if an Ad is about to be played.
+3. If the event is an Ad about to be played **automatically mute system audio**.
+4. If the next event is a song, **unmute system audio**.
+
 # Repository
 Here's the repo if you want to know more:
 [https://github.com/gdi3d/mute-spotify-ads-mac-osx](https://github.com/gdi3d/mute-spotify-ads-mac-osx)
 
 # Need help?
 
-Contact me [https://getadvice.github.io/adriano.galello.html](https://getadvice.github.io/adriano.galello.html)
+Contact me [https://getadvice.github.io/adriano.galello.html](https://getadvice.github.io/adriano.galello.html) you have my LinkedIn contact there, feel free to send me a message.
