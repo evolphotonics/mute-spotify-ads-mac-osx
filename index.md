@@ -37,8 +37,8 @@ Besides, I was bored that Saturday noon and I wanted to give it a try.
 
 1. Using OSX log system I can listen to Spotify events.
 2. Read the events and check if an Ad is about to be played.
-3. If the event is an Ad about to be played **automatically mute system audio**.
-4. If the next event is a song, **unmute system audio**.
+3. If the event is an Ad about to be played **automatically turn down the volume to 1%** (if we mute it Spotify will detect it and stop working properly after a while).
+4. If the next event is a song, **restore volume**.
 
 # Repository
 Here's the repo if you want to know more:
