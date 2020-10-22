@@ -17,6 +17,9 @@ mkdir -p ~/MuteSpotifyAds && curl https://raw.githubusercontent.com/gdi3d/mute-s
     
     ```
 sh ~/MuteSpotifyAds/NoAdsSpotify.sh
+
+# If you're using HDMI speakers use this:
+sh ~/MuteSpotifyAds/NoAdsSpotify.sh hdmi 
     ```
 
 5. Open Spotify and enjoy!
