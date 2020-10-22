@@ -15,12 +15,12 @@ mkdir -p ~/MuteSpotifyAds && curl https://raw.githubusercontent.com/gdi3d/mute-s
 3. This will create a new folder inside your Home folder called `MuteSpotifyAds` and will place a new file called `NoAdsSpotify.sh`
 4. To run the program just copy and paste the code below in the terminal and hit enter 
     
-    ```
+```
 sh ~/MuteSpotifyAds/NoAdsSpotify.sh
 
 # If you're using HDMI speakers use this:
 sh ~/MuteSpotifyAds/NoAdsSpotify.sh hdmi 
-    ```
+```
 
 5. Open Spotify and enjoy!
 6. After you're done listening to your tracks you can close this application by **closing the terminal app**. **Remember: You need to run this program the next time you open Spotify if you want to mute the Ads (steps 1 and 4)**
