@@ -3,6 +3,8 @@ I use Spotify on my computer from time to time but I hate when the Ads start pla
 
 I don't mind having a **break** between a few songs, but I don't wanna hear the Ads, so I decided to create a small script to hack it.
 
+**Important: This script works ONLY with the App version of Spotify on Mac. It doesn't work on the web version**
+
 # How to install it
 
 1. Open the application **Terminal**. Search it inside your **Applications** folder or using **Spotlight search** (cmd+space bar) and type **terminal.app**
@@ -17,9 +19,6 @@ mkdir -p ~/MuteSpotifyAds && curl https://raw.githubusercontent.com/gdi3d/mute-s
     
 ```
 sh ~/MuteSpotifyAds/NoAdsSpotify.sh
-
-# If you're using HDMI speakers use this:
-sh ~/MuteSpotifyAds/NoAdsSpotify.sh hdmi 
 ```
 
 5. Open Spotify and enjoy!
