@@ -7,7 +7,7 @@ I don't mind having a **break** between a few songs, but I don't wanna hear the 
 
 # How to install it
 
-[![asciicast](https://asciinema.org/a/405918.svg)](https://asciinema.org/a/405918)
+<script id="asciicast-405918" src="https://asciinema.org/a/405918.js" async></script>
 
 1. Open the application **Terminal**. Search it inside your **Applications** folder or using **Spotlight search** (cmd+space bar) and type **terminal.app**
 2. Inside that white window (that's the terminal app) paste this command and then hit enter 
