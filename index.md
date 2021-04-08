@@ -7,6 +7,8 @@ I don't mind having a **break** between a few songs, but I don't wanna hear the 
 
 # How to install it
 
+[![asciicast](https://asciinema.org/a/405918.svg)](https://asciinema.org/a/405918)
+
 1. Open the application **Terminal**. Search it inside your **Applications** folder or using **Spotlight search** (cmd+space bar) and type **terminal.app**
 2. Inside that white window (that's the terminal app) paste this command and then hit enter 
   
@@ -15,14 +17,14 @@ mkdir -p ~/MuteSpotifyAds && curl https://raw.githubusercontent.com/gdi3d/mute-s
     ```
 
 3. This will create a new folder inside your Home folder called `MuteSpotifyAds` and will place a new file called `NoAdsSpotify.sh`
-4. To run the program just copy and paste the code below in the terminal and hit enter 
-    
-```
+4. To run the program just copy and paste the code below in the terminal and hit enter
+  
+   ```
 sh ~/MuteSpotifyAds/NoAdsSpotify.sh
-```
-
-5. Open Spotify and enjoy!
+   ```
+5. Open Spotify App and enjoy!
 6. After you're done listening to your tracks you can close this application by **closing the terminal app**. **Remember: You need to run this program the next time you open Spotify if you want to mute the Ads (steps 1 and 4)**
+
 
 # How to uninstall it?
 1. Go to your home folder (the one with the 🏠 icon) using the **Finder** 
