@@ -1,5 +1,7 @@
 #!/bin/bash
-CURRENT_VER=15
+
+
+CURRENT_VER=15.1
 
 set -e
 
@@ -19,6 +21,8 @@ fi
 # Version are written down using
 # zero padding %02d to normalize length
 # to 6 characters
+OS_MONTEREY_2=120101
+OS_MONTEREY=120001
 OS_BIGSUR_3=110203
 OS_BIGSUR_2=110201
 OS_BIGSUR=110001
@@ -38,6 +42,14 @@ OS_PANTHER=100309
 OS_JAGUAR=100208
 OS_PUMA=100105
 OS_CHEETAH=100004
+
+
+# check if Spotify is already open, and if not launch Spotify
+#osascript -e 'tell application "System Events" to get name of (processes where background only is false)'
+if [ $(ps -e| grep "Spotify.app" |wc -l) -lt 2 ]; then
+    open -a Spotify
+fi
+
 
 # check if version is up-to-date
 INSTALLATION_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
